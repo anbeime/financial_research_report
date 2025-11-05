@@ -1,0 +1,10 @@
+# Cloudflare Pages Build Configuration
+command = "npm --prefix frontend install && npm --prefix frontend run build"
+functions_dir = false
+compatibility_date = "2025-11-05"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+[env.development]  
+vars = { ENVIRONMENT = "development" }

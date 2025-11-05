@@ -1,21 +1,14 @@
 # Cloudflare Pages 配置
 name = "financial-research-report"
 type = "javascript"
+compatibility_date = "2025-11-05"
 
-# 构建配置
 [build]
-command = "npm --prefix frontend install && npm --prefix frontend run build"
-watch_paths = ["frontend/src/**/*.{jsx,css,js}", "frontend/index.html"]
+command = "npm run build"
 pages_build_output_dir = "frontend/dist"
 
-[build.upload]
-dir = "frontend/dist"
-format = "modules"
-
-# 开发环境
-[env.development]
-vars = { ENVIRONMENT = "development" }
-
-# 生产环境
 [env.production]
 vars = { ENVIRONMENT = "production" }
+
+[env.development]
+vars = { ENVIRONMENT = "development" }
