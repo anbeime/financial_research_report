@@ -6,6 +6,7 @@ type = "javascript"
 [build]
 command = "npm --prefix frontend install && npm --prefix frontend run build"
 watch_paths = ["frontend/src/**/*.{jsx,css,js}", "frontend/index.html"]
+pages_build_output_dir = "frontend/dist"
 
 [build.upload]
 dir = "frontend/dist"
