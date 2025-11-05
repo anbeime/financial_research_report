@@ -199,6 +199,7 @@ logs/
 .cache/
 cache/
 
+>>>>>>> a33326fa4c42048cbbd43a784e0cc63b4969d3bf
 # Model files (if any)
 *.pkl
 *.joblib
@@ -224,3 +225,5 @@ frontend/.idea/
 # OS files
 .DS_Store
 Thumbs.db
+=======
+>>>>>>> a33326fa4c42048cbbd43a784e0cc63b4969d3bf

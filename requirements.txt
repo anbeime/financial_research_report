@@ -47,6 +47,11 @@ mdformat
 # urllib.parse, ast, typing, dataclasses
 # asyncio, importlib, http.client
 
+>>>>>>> a33326fa4c42048cbbd43a784e0cc63b4969d3bf
+# ========== 开发工具（可选） ==========
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.9.0
 # ========== Jupyter Notebook支持 ==========
 ipython>=7.0.0
 
@@ -59,6 +64,12 @@ python-multipart>=0.0.5
 # ========== 定时任务 ==========
 APScheduler>=3.10.0
 
+# ========== 开发工具（可选） ==========
+# pytest>=6.0.0
+# black>=21.0.0
+# flake8>=3.9.0
+=======
+>>>>>>> a33326fa4c42048cbbd43a784e0cc63b4969d3bf
 # ========== 开发工具（可选） ==========
 # pytest>=6.0.0
 # black>=21.0.0
