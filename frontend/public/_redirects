@@ -1,0 +1,5 @@
+# SPA 路由重定向 - 所有非文件请求都转向 index.html
+/*  /index.html  200
+
+# API 代理 - 根据需要配置
+# /api/*  https://your-api-domain.com/api/:splat  200
